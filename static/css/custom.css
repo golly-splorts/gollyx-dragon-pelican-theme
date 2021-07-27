@@ -1,11 +1,11 @@
 .navbar-dark .navbar-brand {
-  color: #6BD0FF;
+  color: #FF9300;
 }
 
 /* navbar color */
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-brand:hover {
-  color: #6BD0FF !important;
+  color: #FF9300 !important;
 }
 
 /* navbar logo padding */
