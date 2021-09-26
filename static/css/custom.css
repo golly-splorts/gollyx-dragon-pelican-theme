@@ -78,8 +78,12 @@ th {
   margin-bottom: -8px;
 }
 
-.scoreboard-panel {
+.scoreboard-panel, .stats-panel {
   font-size: 18px;
+}
+
+.scoreboard-panel-table, .stats-panel-table {
+    width: 100%;
 }
 
 .scoreboard-table-right-column {
@@ -267,6 +271,28 @@ span.standings-record {
     font-size: 110%;
 }
 
+table.standings-table thead th {
+  padding: 0.8rem;
+  vertical-align: top;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+table.standings-table td {
+  padding: 0.8rem;
+  vertical-align: top;
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 0px;
+}
+
+table.standings-table {
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
 /****************************
  * maps page
  * **************************/
@@ -300,14 +326,79 @@ span.standings-record {
   margin-bottom: 30px;
 }
 
-span.simulator-record {
-    font-size: 110%;
-}
-
 .territory-score-column {
   width: 100px;
 }
 
 .simulator-wl-column {
   width: 100px;
+}
+
+#buttonRun {
+    width: 65px;
+}
+
+/* fixing up simulator spacing and arrangement */
+
+li.scoreboard-panel-no-padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+table.scoreboard-panel-table {
+    font-size: 18px;
+}
+
+table tr.scoreboard-table-first-row td {
+    /*
+     * border-top: 0px;
+     */
+    border-top: 1px solid #aaa;
+    padding: 0.45rem;
+    border-bottom: 1px solid #999;
+}
+
+table tr.scoreboard-table-nth-row td {
+    border-bottom: 1px solid #999;
+    padding: 0.45rem;
+}
+
+table.scoreboard-panel-table thead th {
+    padding: 0.35rem;
+}
+
+.scoreboard-table-column-wl {
+    width: 0px;
+}
+
+.scoreboard-table-column-icon {
+    width: 35px;
+}
+
+.scoreboard-table-column-spacing {
+    width: 35px;
+}
+
+.scoreboard-table-column-score {
+    width: 75px;
+}
+
+.scoreboard-table-column-record {
+    width: 75px;
+}
+
+.scoreboard-table-column-rainbows {
+    width: 75px;
+}
+
+.list-group-item-add-border {
+    border-width: 1px !important;
+}
+
+.my-form-group {
+    margin-bottom: 0px;
+}
+
+.grid-holder {
+  margin-top: 20px;
 }
