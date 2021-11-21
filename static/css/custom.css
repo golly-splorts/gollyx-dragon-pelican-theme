@@ -402,3 +402,25 @@ table.scoreboard-panel-table thead th {
 .grid-holder {
   margin-top: 20px;
 }
+
+/*******************
+ * a bunch of stuff
+ * that disappeared
+ * from bootstrap.
+ ******************/
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.form-control-range {
+  display: block;
+  width: 100%;
+}
+
+button, input {
+  overflow: visible;
+}
