@@ -424,3 +424,7 @@ table.scoreboard-panel-table thead th {
 button, input {
   overflow: visible;
 }
+
+.flipdown {
+  width: 600px !important;
+}
